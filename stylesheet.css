@@ -12,6 +12,8 @@ body{
     flex-direction: column;
     background-color: #1f2937;
     padding: 16px;
+    justify-content: space-around;
+    
 }
 .logo{
     display: flex;
@@ -31,14 +33,17 @@ color: white;
 
 .container{
     display: flex;
-    flex:1;
+    
     justify-content: space-around;
+    align-items: center;
     gap: 20px;
     border: 0;
-    padding: 15px 16px;
+    padding: 15px 200px;
     background-color: #1f2937;
     margin-top: 50px;
     color: white;
+    text-align: left;
+   
 
 }
 .head{
@@ -47,6 +52,7 @@ color: white;
 }
 .first{
     gap: 20px;
+    
 }
 .signup{
     margin-top: 10px;
@@ -54,17 +60,17 @@ color: white;
     border-color: #3882f6;
     padding: 5px 25px;
     border-radius: 5px;
+    font-weight: bold;
     color: white;
     
 }
 .images{
-   
-    aspect-ratio: 2 / 1 ;
+   aspect-ratio: 2 / 1;
 }
 
 img{
-    max-width: 450px;
-    max-height: 150px;
+    max-width: 600px;
+    max-height: 200px;
     object-fit: contain;
 }
 
