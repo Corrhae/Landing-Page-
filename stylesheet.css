@@ -9,13 +9,19 @@ body{
 }
 .header{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     background-color: #1f2937;
     padding: 16px;
-    margin-bottom: 0;
-    
-
 }
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+    
+}
+
 a{
 text-decoration: none;
 color: white;
@@ -25,24 +31,48 @@ color: white;
 
 .container{
     display: flex;
-    flex: 1;
-    gap: 10px;
+    flex:1;
+    justify-content: space-around;
+    gap: 20px;
     border: 0;
-    padding: 0 16px;
+    padding: 15px 16px;
     background-color: #1f2937;
+    margin-top: 50px;
+    color: white;
 
 }
+.head{
+    font-size: 48px;
+    font-weight: 900;
+}
+.first{
+    gap: 20px;
+}
+.signup{
+    margin-top: 10px;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: white;
+    
+}
+.images{
+   
+    aspect-ratio: 2 / 1 ;
+}
+
 img{
-    width: 250px;
-    height: auto;
-    
-
-    
+    max-width: 450px;
+    max-height: 150px;
+    object-fit: contain;
 }
+
 ul{
     display: flex;
     gap: 20px;
     list-style-type: none;
+    font-weight: 75;
     
 }
 
@@ -56,16 +86,34 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    justify-content: space-around;
+    gap: 40px;
+    object-fit: cover;
+    
+    padding: 20px 270px;
+    
+}
+.text{
+    font-size: 15px;
+    font-weight: 475;
+    color: grey;
+    display: flex;
+    text-align: center;
+
+}
+.simage{
+   object-fit: cover;
+  aspect-ratio: 1 / 1;
+  border: 5px solid #3882f6;
+  border-radius: 18px;
+
 }
 .section{
     display: flex;
-    font-weight: 900px;
+    font-weight: 900;
     font-size: 36px;
     justify-content: center;
     color: #1f2937;
-    margin-bottom: 30px;
+    
     
 }
 .quote{
